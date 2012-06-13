@@ -1,0 +1,49 @@
+<head>
+  <title>MathFormulas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="...">
+  <meta name="author" content="Włodek Bzyl">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+
+  <script src="/js/bootstrap.min.js"></script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax:       { inlineMath: [['$','$'], ['\\(','\\)']] },
+      displayAlign:  "left",
+      displayIndent: "2em",
+      "HTML-CSS": {
+        linebreaks: { automatic : true }
+      }
+    });
+  </script>
+  <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+  <script>
+    $('.dropdown-toggle').dropdown();
+
+    $(document).on('click', '#masthead button:contains("New formula")', function(event) {
+      $('#new-formula').toggle();
+    });
+    $(document).on('click', '#masthead button:contains("Hide")', function(event) {
+      $('#new-formula').hide();
+    });
+    $(document).on('click', '#mathjax .clear', function(event) {
+      $('#text').val('');
+    });
+
+    $(document).on('keyup', '#text', makePreview);
+    function makePreview(event) {
+      $('#tex').html($('#text').val());
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub, "tex"]);
+    }
+
+    $(document).on('click', '#remove button', function() {
+      $('article .remove').toggle();
+    });
+  </script>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+</head>

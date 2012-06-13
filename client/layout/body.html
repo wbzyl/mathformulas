@@ -1,0 +1,43 @@
+<body>
+
+  {{> navbar}}
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+
+      <div class="span3">
+        <div id="masthead" class="well">
+          <button class="btn btn-danger">New formula</button>
+          <button class="btn btn-warning">Hide</button>
+        </div>
+
+        <div class="sidebar-nav">
+          <h2>Categories</h2>
+          {{> categories}}
+        </div>
+
+        <div id="remove" class="well">
+          <button class="btn btn-inverse">Toggle remove buttons</button>
+        </div>
+      </div>
+
+      <div class="span9">
+
+        <div id="new-formula" class="row-fluid">
+          <div id="mathjax" class="span6">
+            {{> mathjax}}
+          </div>
+          <div id="tex" class="span6">
+          </div>
+        </div>
+
+        <div id="formulas">
+          {{> mathformulas}}
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>

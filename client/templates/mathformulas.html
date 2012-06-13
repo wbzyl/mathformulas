@@ -1,0 +1,12 @@
+<template name="mathformulas">
+  {{#each mathformulas}}
+    {{> mathformula}}
+  {{/each}}
+</template>
+
+<template name="mathformula">
+  <article id="{{_id}}" class="well">
+    <button class="remove btn btn-inverse">Remove</button>
+    {{{text}}}
+  </article>
+</template>
