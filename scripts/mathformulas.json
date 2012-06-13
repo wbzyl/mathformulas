@@ -1,0 +1,8 @@
+{ "category" : "Geometry", "text" : "$$V = \\frac43\\pi r^3$$", "timestamp" : 1339423514591, "_id" : "010a7865-7f13-450a-9b99-5f5141d110d9" }
+{ "category" : "Trigonometry", "text" : "$$\\sin 2x = 2\\sin x \\cos x$$", "timestamp" : 1339444209608, "_id" : "04071d6c-1202-47a7-801b-eb9d629bfb02" }
+{ "category" : "Sequences", "text" : "$$1+2+\\cdots+n=\\frac{n(n+1)}2$$", "timestamp" : 1339433320268, "_id" : "5068d275-5da3-4b06-ab6d-507520599f91" }
+{ "category" : "Algebra", "text" : "$$x = \\frac{-b \\pm \\sqrt\\Delta}{2a}$$", "timestamp" : 1339423461283, "_id" : "738a2018-fb32-4bda-ab97-e1413438ed2c" }
+{ "category" : "Geometry", "text" : "$$P = \\pi r^2$$", "timestamp" : 1339423351967, "_id" : "77a0feba-eb3b-431d-8753-ea3f17c6cc56" }
+{ "category" : "Geometry", "text" : "<h3>Pythagorean theorem</h3>\n<img src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/200px-Pythagorean.svg.png\">\n$$a^2+b^2=c^2$$", "timestamp" : 1339444127933, "_id" : "7a4a2748-2614-4fe7-81a3-efe8f8cf4881" }
+{ "category" : "Trigonometry", "text" : "$$\\sin^2 x + \\cos^2 x = 1$$", "timestamp" : 1339444244266, "_id" : "849ee1a5-3e2c-4060-809f-f73437c198dc" }
+{ "category" : "Sequences", "text" : "$$\\sum_{i=1}^n i^2=\\frac{n(n+1)(2n+1)}{6}$$", "timestamp" : 1339444569380, "_id" : "f12035bc-d5d3-495d-980f-e0eb5e565270" }
