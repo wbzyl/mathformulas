@@ -1,8 +1,20 @@
 { "category" : "Geometry", "text" : "$$V = \\frac43\\pi r^3$$", "timestamp" : 1339423514591, "_id" : "010a7865-7f13-450a-9b99-5f5141d110d9" }
 { "category" : "Trigonometry", "text" : "$$\\sin 2x = 2\\sin x \\cos x$$", "timestamp" : 1339444209608, "_id" : "04071d6c-1202-47a7-801b-eb9d629bfb02" }
+{ "category" : "Limits", "text" : "$$\n  \\lim \\frac{1+2+\\cdots + n}{n^2} = ?\n$$", "timestamp" : 1340016508953, "_id" : "0591d0a5-f790-4b5e-90c1-8e13398fd129" }
+{ "category" : "Series", "text" : "$$\n  e^z = \\lim_{n\\to\\infty}\\left(1+\\frac zn\\right)^n\n$$", "timestamp" : 1340010239080, "_id" : "0623a5c5-c8a3-4aab-820b-6e4355e5f260" }
+{ "category" : "Miscellaneous", "text" : "$$\n  f\\colon \\mathbb{R}^{\\mathbb N} \\to \\mathbb{R}\n$$", "timestamp" : 1340011199152, "_id" : "31c0e9da-5797-4c03-8417-86d680bd56fe" }
+{ "category" : "Algebra", "text" : "$$\n  x = \\cfrac1{1+\\cfrac{1}{1+\\cfrac1{1+\\cdots}}}\n$$", "timestamp" : 1340011024492, "_id" : "33c826a3-f6bc-4565-a25e-6e76c9f6b45c" }
+{ "category" : "Series", "text" : "\\begin{align}\n  e^z &\\approx \\left(1+\\frac zn\\right)^N \\\\\n           &= (1 + w)^N\\\\\n          &= 1 + Nw + \\frac{N(N-1)}{2!}w^2 + \\frac{N(N-1)(N-2)}{3!}w^2+\\cdots\\\\\n          &= 1 + z + \\frac {z^2}{2!} + \\frac{z^3}{3!} + \\cdots\n\\end{align}", "timestamp" : 1340010754147, "_id" : "398ba374-9231-4c05-8abd-4e4c2b8fb285" }
+{ "category" : "Integrals", "text" : "$$\n \\int_0^1 \\sqrt x\\,dx = ?\n$$", "timestamp" : 1340016681595, "_id" : "43b20a4a-a0e1-40a9-8d4e-9250963e2e47" }
 { "category" : "Sequences", "text" : "$$1+2+\\cdots+n=\\frac{n(n+1)}2$$", "timestamp" : 1339433320268, "_id" : "5068d275-5da3-4b06-ab6d-507520599f91" }
 { "category" : "Algebra", "text" : "$$x = \\frac{-b \\pm \\sqrt\\Delta}{2a}$$", "timestamp" : 1339423461283, "_id" : "738a2018-fb32-4bda-ab97-e1413438ed2c" }
 { "category" : "Geometry", "text" : "$$P = \\pi r^2$$", "timestamp" : 1339423351967, "_id" : "77a0feba-eb3b-431d-8753-ea3f17c6cc56" }
 { "category" : "Geometry", "text" : "<h3>Pythagorean theorem</h3>\n<img src=\"http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/200px-Pythagorean.svg.png\">\n$$a^2+b^2=c^2$$", "timestamp" : 1339444127933, "_id" : "7a4a2748-2614-4fe7-81a3-efe8f8cf4881" }
+{ "category" : "Integrals", "text" : "$$\n \\int x\\sin x \\,dx = ? \n$$", "timestamp" : 1340016650979, "_id" : "80b4fa06-bb6b-48a9-b588-c9df3434dd8f" }
 { "category" : "Trigonometry", "text" : "$$\\sin^2 x + \\cos^2 x = 1$$", "timestamp" : 1339444244266, "_id" : "849ee1a5-3e2c-4060-809f-f73437c198dc" }
+{ "category" : "Matrices", "text" : "$$\n \\pmatrix{1&1\\\\ 0&1}^n = ?\n$$", "timestamp" : 1340016576127, "_id" : "8a965bb9-b9d8-4531-8667-2b4268d0689f" }
+{ "category" : "Trigonometry", "text" : "$$\n  \\sin(z) = z\\left(1-\\frac{z^2}{\\pi^2}\\right) \\left(1-\\frac{z^2}{2^2\\pi^2}\\right)\n      \\left(1-\\frac{z^2}{3^2\\pi^2}\\right)\\left(1-\\frac{z^2}{4^2\\pi^2}\\right)\\ldots\n$$", "timestamp" : 1340010109247, "_id" : "8c2b6c04-61a4-4d0f-9010-f266480695a5" }
+{ "category" : "Miscellaneous", "text" : "$$x^2 + y^2 = z^2$$", "timestamp" : 1339867993593, "_id" : "92edd865-e845-41b0-89fe-a3bd0f38fb6f" }
+{ "category" : "Miscellaneous", "text" : "$$\n  f\\colon \\mathbb{R}^3 \\to \\mathbb{R}\n$$", "timestamp" : 1340011166546, "_id" : "d4f1528f-99c5-48f7-8120-40c87a2149ed" }
+{ "category" : "Series", "text" : "\\begin{align}\n1+\\frac1{2^2}+\\frac1{3^2}+\\frac1{4^2}+\\cdots &= \\frac{\\pi^2}6\\\\\n1+\\frac1{2^4}+\\frac1{3^4}+\\frac1{4^4}+\\cdots &= \\frac{\\pi^4}{90}\\\\\n1+\\frac1{2^6}+\\frac1{3^6}+\\frac1{4^6}+\\cdots &= \\frac{\\pi^6}{945}\n\\end{align}", "timestamp" : 1340009764609, "_id" : "d6703833-9774-450f-b6f7-d2d2f31b2853" }
 { "category" : "Sequences", "text" : "$$\\sum_{i=1}^n i^2=\\frac{n(n+1)(2n+1)}{6}$$", "timestamp" : 1339444569380, "_id" : "f12035bc-d5d3-495d-980f-e0eb5e565270" }
